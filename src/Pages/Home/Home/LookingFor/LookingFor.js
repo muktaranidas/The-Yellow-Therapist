@@ -14,7 +14,7 @@ const LookingFor = () => {
         <p className="my-auto">Or,</p>
         <a
           href="#_"
-          class="inline-flex font-semibold items-center  px-6 py-3 border border-orange-400 hover:text-yellow-500  hover:bg-white rounded-lg border-none bg-yellow-500 text-white"
+          class="inline-flex font-semibold items-center  px-6 py-3 border border-orange-400 hover:text-yellow-500 hover:border hover:border-orange-500   hover:bg-white rounded-lg  bg-yellow-500 border-orange-100 text-white"
         >
           I need a therapist
         </a>
