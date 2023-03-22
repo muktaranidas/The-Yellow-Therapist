@@ -1,4 +1,5 @@
 import React from "react";
+import gif from "../../../../Images/FAQ/who_are_you.gif";
 
 const Question = () => {
   return (
@@ -44,8 +45,14 @@ const Question = () => {
               Wait a minute, who are you people?
             </summary>
             <p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-400">
-              <small>click here</small>
-              <small></small>
+              <small>
+                <a href="#" className="text-blue-600 ">
+                  Click Here.
+                </a>
+              </small>
+              <small>
+                <img src={gif} alt="" className="py-2" />
+              </small>
             </p>
           </details>
         </div>
