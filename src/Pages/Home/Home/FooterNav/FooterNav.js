@@ -8,7 +8,7 @@ const FooterNav = () => {
       <div class="relative flex items-center  justify-center ">
         <ul class="flex  items-center space-x-64  hidden lg:flex">
           <li>
-            {AiFillCaretUp}
+            <AiFillCaretUp></AiFillCaretUp>
             <a
               href="/"
               aria-label="Our product"
