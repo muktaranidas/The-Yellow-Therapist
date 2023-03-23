@@ -5,7 +5,7 @@ const Question = () => {
   return (
     <div>
       <section className="dark:bg-gray-800 dark:text-gray-100 my-24">
-        <h2 className="text-2xl font-bold  text-yellow-500 sm:text-3xl">
+        <h2 className="text-2xl font-bold  text-colorYellow sm:text-3xl">
           Questions maybe circling in your mind:
         </h2>
 

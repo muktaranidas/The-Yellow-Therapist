@@ -33,45 +33,45 @@ const FooterNav = () => {
       <div class="relative flex items-center  justify-center ">
         <ul class="flex  items-center space-x-64  hidden lg:flex">
           <li>
-            <BsPeopleFill className="mx-auto text-yellow-500 text-2xl my-2"></BsPeopleFill>
+            <BsPeopleFill className="mx-auto text-colorYellow text-2xl my-2"></BsPeopleFill>
             <a
               href="/"
               aria-label="Our product"
               title="Our product"
-              class="font-semibold tracking-wide text-yellow-500 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              class="font-semibold tracking-wide text-colorYellow transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Therapists
             </a>
           </li>
           <li>
-            <BiArrowToRight className="text-2xl text-yellow-500 my-2 mx-auto"></BiArrowToRight>
+            <BiArrowToRight className="text-2xl text-colorYellow my-2 mx-auto"></BiArrowToRight>
             <a
               href="/"
               aria-label="Our product"
               title="Our product"
-              class="font-semibold tracking-wide text-yellow-500 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              class="font-semibold tracking-wide text-colorYellow transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Login
             </a>
           </li>
           <li>
-            <BsPersonPlusFill className="mx-auto text-2xl my-2 text-yellow-500 "></BsPersonPlusFill>
+            <BsPersonPlusFill className="mx-auto text-2xl my-2 text-colorYellow "></BsPersonPlusFill>
             <a
               href="/"
               aria-label="Product pricing"
               title="Product pricing"
-              class="font-semibold tracking-wide text-yellow-500 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              class="font-semibold tracking-wide text-colorYellow transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Signup
             </a>
           </li>
           <li>
-            <AiOutlineUp className="mx-auto text-yellow-500 my-2 text-2xl font-bold"></AiOutlineUp>
+            <AiOutlineUp className="mx-auto text-colorYellow my-2 text-2xl font-bold"></AiOutlineUp>
             <a
               href="/"
               aria-label="About us"
               title="About us"
-              class="font-semibold tracking-wide text-yellow-500 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              class="font-semibold tracking-wide text-colorYellow transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Full Menu
             </a>
