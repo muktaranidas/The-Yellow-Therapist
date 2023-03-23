@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiFillCaretUp, AiOutlineUp } from "react-icons/ai";
-import { BsPeopleFill, BsPersonPlusFill, IconName } from "react-icons/bs";
+import { BsPeopleFill, BsPersonPlusFill } from "react-icons/bs";
+import { BiArrowToRight, IconName } from "react-icons/bi";
 
 const FooterNav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,6 +21,7 @@ const FooterNav = () => {
             </a>
           </li>
           <li>
+            <BiArrowToRight className="text-2xl text-yellow-500 my-2 mx-auto"></BiArrowToRight>
             <a
               href="/"
               aria-label="Our product"
