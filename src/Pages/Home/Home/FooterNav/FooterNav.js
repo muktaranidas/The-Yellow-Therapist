@@ -1,12 +1,32 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AiFillCaretUp, AiOutlineUp } from "react-icons/ai";
 import { BsPeopleFill, BsPersonPlusFill } from "react-icons/bs";
 import { BiArrowToRight, IconName } from "react-icons/bi";
+import "./FooterNav.css";
 
 const FooterNav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [show, setShow] = useState(true);
+  const controlNavbar = () => {
+    if (window.scrollY > 100) {
+      setShow(false);
+    } else {
+      setShow(true);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", controlNavbar);
+    return () => {
+      window.removeEventListener("scroll", controlNavbar);
+    };
+  }, []);
+
   return (
-    <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    // <div className="nav">
+    <div
+      className={`   navbar  px-4  py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ${show}`}
+    >
       <div class="relative flex items-center  justify-center ">
         <ul class="flex  items-center space-x-64  hidden lg:flex">
           <li>
@@ -184,6 +204,7 @@ const FooterNav = () => {
         </div>
       </div>
     </div>
+    // </div>
   );
 };
 

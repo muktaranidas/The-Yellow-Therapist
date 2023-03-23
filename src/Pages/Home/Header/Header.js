@@ -25,7 +25,7 @@ const Header = () => {
               title="Company"
               class="inline-block items-center "
             >
-              <img src={headerImg} alt="" className="" />
+              <img src={headerImg} alt="" className="text-4xl w-64 h-20" />
               <span class="ml-2 text-xl  tracking-wide header-logo ">
                 Because yellow is the happiest color.
               </span>
