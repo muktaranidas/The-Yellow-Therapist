@@ -4,6 +4,16 @@ import "./Header.css";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const date = new Date().toDateString();
+
+  let time = new Date().toLocaleTimeString();
+  let [ctime, setCTime] = useState();
+  const updateTime = () => {
+    time = new Date().toLocaleTimeString();
+    setCTime(time);
+  };
+  setInterval(updateTime, 1000);
+
   return (
     <div class="">
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
@@ -29,7 +39,7 @@ const Header = () => {
                 title="Sign in"
                 class=" header-right tracking-wide text-black transition-colors duration-200 hover:text-teal-accent-400"
               >
-                Time
+                {ctime}
               </a>
             </li>
             <li>
@@ -39,7 +49,7 @@ const Header = () => {
                 title="Sign in"
                 class="header-right text-center tracking-wide text-black  duration-200 hover:text-teal-accent-400"
               >
-                Date
+                {date}
               </a>
             </li>
             <li>

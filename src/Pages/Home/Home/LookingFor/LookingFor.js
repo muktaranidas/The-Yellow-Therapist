@@ -2,7 +2,7 @@ import React from "react";
 
 const LookingFor = () => {
   return (
-    <div className="text-center   my-16">
+    <div className="text-center   my-12">
       <p className="text-3xl  font-bold">What are you looking for?</p>
       <div className="flex space-x-8 justify-center my-8 ">
         <a

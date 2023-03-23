@@ -11,7 +11,7 @@ const Question = () => {
 
         <div className="space-y-4">
           <details className="w-full">
-            <summary className="px-4 py-6 underline  font-semibold">
+            <summary className="px-4 py-6 underline   font-semibold">
               Yellow therapist reminds me of yellow journalists, why yellow?
             </summary>
             <p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-400">
