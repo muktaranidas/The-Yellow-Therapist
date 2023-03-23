@@ -8,7 +8,7 @@ const FooterNav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [show, setShow] = useState(true);
   const controlNavbar = () => {
-    if (window.scrollY > 100) {
+    if (window.scrollY < 1200) {
       setShow(false);
     } else {
       setShow(true);
@@ -22,10 +22,13 @@ const FooterNav = () => {
     };
   }, []);
 
+  console.log(window.innerHeight);
   return (
     // <div className="nav">
     <div
-      className={`   navbar  px-4  py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ${show}`}
+      className={`navbar  px-4  py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ${
+        show && "hidden"
+      }`}
     >
       <div class="relative flex items-center  justify-center ">
         <ul class="flex  items-center space-x-64  hidden lg:flex">

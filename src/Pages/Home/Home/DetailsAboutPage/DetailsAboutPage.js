@@ -1,5 +1,5 @@
 import React from "react";
-import animation from "../../../../Images/Animation/leptop.mp4";
+import animation from "../../../../Images/Animation/leptop.gif";
 
 const DetailsAboutPage = () => {
   return (

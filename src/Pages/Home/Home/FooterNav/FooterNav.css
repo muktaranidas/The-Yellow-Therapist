@@ -1,6 +1,7 @@
 .navbar {
-  height: 90px;
+  height: 20px;
   width: 100%;
-  /* background-color: red; */
-  /* position: fixed; */
+  background-color: white;
+  position: fixed;
+  bottom: 0px;
 }
