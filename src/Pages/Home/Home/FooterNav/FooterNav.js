@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AiFillCaretUp, IconName } from "react-icons/ai";
+import { AiFillCaretUp, AiOutlineUp, IconName } from "react-icons/ai";
 
 const FooterNav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,7 +8,7 @@ const FooterNav = () => {
       <div class="relative flex items-center  justify-center ">
         <ul class="flex  items-center space-x-64  hidden lg:flex">
           <li>
-            <AiFillCaretUp></AiFillCaretUp>
+            <AiOutlineUp></AiOutlineUp>
             <a
               href="/"
               aria-label="Our product"
@@ -39,6 +39,7 @@ const FooterNav = () => {
             </a>
           </li>
           <li>
+            <AiOutlineUp className="mx-auto text-yellow-500 my-2 font-bold"></AiOutlineUp>
             <a
               href="/"
               aria-label="About us"
