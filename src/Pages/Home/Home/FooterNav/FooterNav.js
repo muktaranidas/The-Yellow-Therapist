@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AiFillCaretUp, AiOutlineUp } from "react-icons/ai";
-import { BsPeopleFill, IconName } from "react-icons/bs";
+import { BsPeopleFill, BsPersonPlusFill, IconName } from "react-icons/bs";
 
 const FooterNav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,6 +30,7 @@ const FooterNav = () => {
             </a>
           </li>
           <li>
+            <BsPersonPlusFill className="mx-auto text-2xl my-2 text-yellow-500 "></BsPersonPlusFill>
             <a
               href="/"
               aria-label="Product pricing"
@@ -40,7 +41,7 @@ const FooterNav = () => {
             </a>
           </li>
           <li>
-            <AiOutlineUp className="mx-auto text-yellow-500 my-2 font-bold"></AiOutlineUp>
+            <AiOutlineUp className="mx-auto text-yellow-500 my-2 text-2xl font-bold"></AiOutlineUp>
             <a
               href="/"
               aria-label="About us"
