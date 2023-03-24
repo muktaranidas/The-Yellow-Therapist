@@ -7,7 +7,7 @@ const DetailsAboutPage = () => {
   return (
     <div>
       <section className="dark:bg-gray-800 dark:text-gray-100"></section>
-      <div className="container -mb-20  flex flex-col justify-center  mx-auto lg:flex-row lg:justify-between w-3/4">
+      <div className="container lg:-mb-20  flex flex-col justify-center  mx-auto lg:flex-row lg:justify-between w-3/4">
         <img src={handshake} alt="" className="w-[300px] h-[400px] " />
         <div className="flex flex-col justify-center  text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
           <p className="text-xl text-colorYellow font-bold  sm:text-3xl">
@@ -20,7 +20,7 @@ const DetailsAboutPage = () => {
           </p>
         </div>
       </div>
-      <div className="container flex flex-col -mb-20   justify-center  mx-auto   lg:flex-row lg:justify-between w-3/4">
+      <div className="container flex flex-col lg:-mb-20   justify-center  mx-auto   lg:flex-row lg:justify-between w-3/4">
         <div className="flex flex-col justify-center  text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
           <p className="text-xl text-colorYellow font-bold  sm:text-3xl">
             those who need help...
@@ -35,7 +35,7 @@ const DetailsAboutPage = () => {
           <img src={leptop} alt="" className="w-[350px] " />
         </div>
       </div>{" "}
-      <div className="container  mt-[-3] flex flex-col justify-center  my-0 mx-auto lg:flex-row lg:justify-between w-3/4">
+      <div className="container  lg:mt-[-20] flex flex-col justify-center  my-0 mx-auto lg:flex-row lg:justify-between w-3/4">
         <img src={talk} alt="" className="w-[350px] " />
         <div className="flex flex-col justify-center  text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
           <p className="text-xl text-colorYellow font-bold  sm:text-3xl">
