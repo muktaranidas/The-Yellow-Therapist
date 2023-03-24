@@ -9,7 +9,7 @@ const LookingFor = () => {
       <div className="flex space-x-8 justify-center my-8 ">
         <a
           href="#_"
-          class="inline-flex font-semibold items-center  px-6 py-3 border-2 border-colorYellow text-colorYellow   bg-white rounded-lg hover:border-none hover:bg-colorYellow hover:text-white"
+          class="inline-flex font-semibold items-center  px-6 py-3  border border-colorYellow text-colorYellow bg-white rounded-lg hover:border hover:bg-colorYellow hover:text-white"
         >
           I need a therapist
         </a>

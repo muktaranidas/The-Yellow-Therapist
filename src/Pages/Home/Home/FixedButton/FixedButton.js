@@ -12,7 +12,7 @@ const FixedButton = () => {
         </a>
         <a
           href="#_"
-          class="inline-flex font-semibold items-center rounded-3xl  px-6 py-3 border border-gray-400 text-colorYellow  bg-white  hover:border-none hover:bg-colorYellow hover:text-white"
+          class="inline-flex font-semibold items-center rounded-3xl  px-6 py-3 border border-gray-400 text-colorYellow  bg-white  hover:border hover:bg-colorYellow hover:text-white"
         >
           TYT Vent
         </a>

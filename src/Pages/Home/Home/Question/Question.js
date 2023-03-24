@@ -4,7 +4,7 @@ import gif from "../../../../Images/FAQ/who_are_you.gif";
 const Question = () => {
   return (
     <div>
-      <section className="dark:bg-gray-800 dark:text-gray-100 my-24">
+      <section className=" my-24">
         <h2 className="text-2xl font-bold  text-colorYellow sm:text-3xl">
           Questions maybe circling in your mind:
         </h2>
@@ -14,7 +14,7 @@ const Question = () => {
             <summary className="px-4 py-6 underline   font-semibold">
               Yellow therapist reminds me of yellow journalists, why yellow?
             </summary>
-            <p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-400">
+            <p className="px-4 py-6 pt-0 ml-4 -mt-4 ">
               <small>
                 As you could guess, we get that a lot. But we chose yellow
                 because yellow is famously the happiest color, yellow is the
@@ -29,7 +29,7 @@ const Question = () => {
               This web design makes me sad, why is it so dull? Or, I don't like
               the design. Or, did you not pay your web designer?
             </summary>
-            <p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-400">
+            <p className="px-4 py-6 pt-0 ml-4 -mt-4 ">
               <small>
                 We are really sorry that you felt that way. But to assure you,
                 this is not our final design. We tend to bring the platform to
@@ -44,7 +44,7 @@ const Question = () => {
             <summary className="px-4 py-6 underline font-semibold ">
               Wait a minute, who are you people?
             </summary>
-            <p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-400">
+            <p className="px-4 py-6 pt-0 ml-4 -mt-4 ">
               <small>
                 <a href="#" className="text-blue-600 ">
                   Click Here.

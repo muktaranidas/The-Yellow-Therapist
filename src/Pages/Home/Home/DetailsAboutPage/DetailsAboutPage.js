@@ -6,7 +6,7 @@ import talk from "../../../../Images/Animation/talk.gif";
 const DetailsAboutPage = () => {
   return (
     <div>
-      <section className="dark:bg-gray-800 dark:text-gray-100"></section>
+      <section className=""></section>
       <div className="container lg:-mb-20  flex flex-col justify-center  mx-auto lg:flex-row lg:justify-between w-3/4">
         <img src={handshake} alt="" className="w-[300px] h-[400px] " />
         <div className="flex flex-col justify-center  text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">

@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <div class="">
-      <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+      <div class="px-4 py-5 mx-auto  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="relative flex items-center justify-between">
           <div class="flex  items-center">
             <a
@@ -31,33 +31,19 @@ const Header = () => {
               </span>
             </a>
           </div>
-          <ul class="flex  lg:inline-block items-center hidden  ">
-            <li>
-              <a
-                href="/"
-                aria-label="Sign in"
-                title="Sign in"
-                class=" header-right tracking-wide text-black transition-colors duration-200 hover:text-teal-accent-400"
-              >
-                {ctime}
-              </a>
+          <ul class="flex text-gray-600  lg:inline-block items-center hidden  ">
+            <li class=" header-right tracking-wide text-gray-600 transition-colors duration-200 hover:text-teal-accent-400">
+              {ctime}
+            </li>
+            <li class="header-right text-center tracking-wide text-gray-600  duration-200 hover:text-teal-accent-400">
+              {date}
             </li>
             <li>
               <a
                 href="/"
                 aria-label="Sign in"
                 title="Sign in"
-                class="header-right text-center tracking-wide text-black  duration-200 hover:text-teal-accent-400"
-              >
-                {date}
-              </a>
-            </li>
-            <li>
-              <a
-                href="/"
-                aria-label="Sign in"
-                title="Sign in"
-                class="header-right tracking-wide text-black transition-colors duration-200 hover:text-teal-accent-400"
+                class="header-right tracking-wide text-gray-600 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Guest User
               </a>
