@@ -58,8 +58,7 @@ const FooterNav = () => {
             <BsPersonPlusFill className="mx-auto text-2xl my-2 text-colorYellow "></BsPersonPlusFill>
             <a
               href="/"
-              // aria-label="Product pricing"
-              // title="Product pricing"
+          
               class="font-semibold tracking-wide text-colorYellow transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Signup
@@ -69,8 +68,7 @@ const FooterNav = () => {
             <AiOutlineUp className="mx-auto text-colorYellow my-2 text-2xl font-bold"></AiOutlineUp>
             <a
               href="/"
-              // aria-label="About us"
-              // title="About us"
+           
               class="font-semibold tracking-wide text-colorYellow transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Full Menu
